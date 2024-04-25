@@ -151,3 +151,70 @@
 .text-cart{
     padding-top: 15px;
 }
+.nav2{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(2,16,41,0.85);
+    display: flex;
+}
+.menu1{
+    font-size: 18px;
+    height: 36px;
+    width: 45px;
+    margin-left: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.menu2{
+    height: 26px;
+    width: 120px;
+    padding-top: ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu3{
+    height: 26px;
+    width: 140px;
+    padding-top: ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu4{
+    height: 26px;
+    width: 80px;
+    padding-top: ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu5{
+    height: 26px;
+    width: 75px;
+    padding-top: ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu6{
+    height: 26px;
+    width: 60px;
+    padding-top: ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
