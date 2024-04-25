@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+   height: 60px;
+   width: 110px;
+   align-content: center;
+   margin-left: 10px;
+}
+.logo{
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100%;
+    background-size: cover; 
+    padding: 0px 5px 0px 5px;  
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    
+}
+ /**box2**/   
+.loc{
+    height: 50px;
+    width: 88px;
+    padding: 0px 5px 10px 5px;
+}
+.loc-logo{
+    height: 15px;
+    width: 5px;
+    float: left;
+    padding-top: 6px;
+    
+}
+.add-fir{
+    color: #cccccc;
+    font-weight: 12px;
+    font-size: 12px;
+    float: left; 
+}
+.add-sec{
+    color: #ffffff;
+    font-weight: 20px;
+    font-size: 16px;
+    float: left;
+    padding-top: 12px;
+    padding-left: 8px;
+    height: 20px;
+    width: 60px;
+}
+.nav-search{
+    width: 920px;
+    height: 45px;
+    display: flex;
+    border-radius:6px ;
+}
+.search-select{
+    width: 50px;
+    border-top-left-radius: 6px;
+    background-color: #f3f3f3;
+    border-bottom-left-radius:6px ;
+    border: none;
+}
+#search-input{
+    width: 830px;
+    border: none;
+    font-size: 0.9rem;
+}
+.search-icon{
+    height: 45px;
+    width: 50px;
+    background-color:#febd68;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border: none;
+}
+.w1{
+    font-size: 12px;
+}
+.w2{
+    font-size:16px;
+}
+.box4{
+    margin-left:10px ;
+    height: 43px;
+    width: 120px;
+    justify-content: center;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+.box5{
+    padding-left: 5px;
+    height: 43px;
+    width: 80px;
+    justify-content: center;
+    padding-top: 13px;
+}
+.nav-country{
+    display: flex;
+    height: 35px;
+    width: 65px;
+    padding-left: 5px;
+    margin-left: 5px;
+    padding-top: 25px;
+}
+.coun-name{
+    height: 20px;
+    width: 35px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.flag{
+    padding-right: 1px;
+    padding-top: 3px;
+
+}
+.box6{
+    display: flex;
+    height: 40px;
+    width: 80px;
+    padding: 10px 0px 9px 0px;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.icon-cart{
+    font-size: 30px;
+    padding-top: 0px;
+}
+.text-cart{
+    padding-top: 15px;
+}
