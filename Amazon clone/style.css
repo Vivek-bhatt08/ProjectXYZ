@@ -218,3 +218,40 @@
     font-size: 14px;
     font-weight: bold;
 }
+.content1{
+    height: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+
+}
+.left-swipe{
+    position: absolute;
+      top: 200px;
+      left: 35px;
+    font-size: 60px; 
+
+}
+.right-swipe{
+    position: absolute;
+      top: 200px;
+      left: 1450px;
+    font-size: 60px;  
+}
+.border1{
+    border: transparent;
+}
+.border1:hover{
+    border: 2px solid skyblue;
+}
+.image1-des{
+    height: 30px;
+    width: 1475px;
+    position: absolute;
+       top: 335px;
+       left: 30px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
