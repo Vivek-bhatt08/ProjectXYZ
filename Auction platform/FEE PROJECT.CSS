@@ -1,0 +1,222 @@
+*{
+	margin: 0rem;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.border{
+	border: transparent;
+}
+.border:hover{
+	border: 3px solid white;
+	border-radius: 2px;
+}
+
+
+.nav-bar{
+	height: 5rem;
+	width: 100%;
+	background:black;
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+.nav-logo{
+	height: 5rem,;
+	width: 8rem;
+	margin-left: 1.5rem;
+	padding-left: 1.25rem;
+	transition: transform 1.5s;
+}
+.nav-logo:hover{
+	transform: scale(0.9);
+}
+.logo{
+	height: 100%;
+	width: 5rem;
+}
+.row1col2{
+	height:5rem;
+	width: 9.375rem;
+	
+}
+.sel-box{
+	height: 4.9rem;
+	width: 100%;
+	border: none;
+	background: transparent;
+	font-weight: 600;
+	color: white;	
+}
+.category-sel{
+	color: black;
+}
+.search-box{
+	height: 3.125rem;
+	width: 37.5rem;
+	display: flex;
+	margin-top: 0.938rem;
+	border: 3px solid gray;
+	margin-left: 0.625rem;
+	transition: transform 0.7s;
+}
+.search-box:hover{
+	transform: scale(0.97);
+}
+.input-box{
+	height: 100%;
+	width: 100%;
+	text-align: left;
+	border: none;
+	font-size: 1rem;
+	font-family: arial;
+
+}
+.icon{
+	height: 100%;
+	width: 3.75rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    padding-top: 0.563rem;
+    background: white;
+
+}
+.input-box:hover{
+	border: none;
+
+}
+.search-button{
+	height: 3.125rem;
+	width: 9.5rem;
+	margin-top: 15px;
+	margin-left: 5px;
+
+}
+.in-search-button{
+	height: 100%;
+	width: 100%;
+	color: white;
+	background: darkcyan;
+	border: none;
+	font-size: 1.3rem;
+	font-family: arial;
+}
+.in-search-button:hover{
+	background:rgb(44, 195, 180);
+	border: 3px solid white;
+	
+
+}
+.row1col5{
+	height: 5rem;
+	width: 12rem;
+	margin-left: 10px;
+	font-family: arial;
+	transition:transform 0.5s;
+}
+.row1col5 p{
+	color: white;
+	text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.row1col5:hover{
+	transform: scale(0.95);
+}
+.sign-in-link{
+	color: white;
+	text-decoration: none;
+}
+.row1col6{
+	height:5rem;
+	width: 6.5rem;
+	margin-left: 10px;
+	font-family: arial;
+	transition:transform 0.5s;
+}
+.row1col6 p{
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 1.2rem;
+}
+.row1col6:hover{
+	transform: scale(0.95);
+}
+.bid-link{
+	color: white;
+	text-decoration: none;
+}
+.row1col7{
+	height: 5rem;
+	width: 7.5rem;
+	margin-left: 10px;
+	transition:transform 0.5s;
+
+}
+.row1col7:hover{
+	transform: scale(0.95);
+}
+.your-bid{
+	height: 5rem;
+	width: 6.875rem;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+/*this is media query of nav bar*/
+
+@media screen and (max-width: 768px) {
+	.row1col5,
+	.row1col6,
+	.row1col7{
+		display: none;
+	}
+	.nav-bar{
+		display:flex;
+		justify-content: space-evenly;
+	}
+    .sel-box{
+    	display: none;
+    }
+    .search-box{
+    	min-width:310px;
+		position: relative;
+		left: -100px;
+    }
+	.logo{
+		display: none;
+	}  
+	.search-button{
+		position: relative;
+		right: 30px;
+		min-width:110px
+	}
+}
+@media screen and (max-width: 550px) {
+	.search-button{
+		display: none;
+	}
+	.search-box{
+		min-width: auto;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.logo{
+		display: block;
+		margin: auto;
+		margin-left: 70px;
+	}
+	.search-box{
+		display: none;
+	}
+}
+
+
