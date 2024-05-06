@@ -298,3 +298,46 @@
 .sign-in-button-box:hover{
     background-color: rgb(235, 186, 52);
 }
+.row4-img4{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+       top: 560px;
+       left: 1170px;
+}
+.row5-img1{
+    height: 415px;
+    width: 350px;
+    position: absolute;
+       top: 825px;
+       left: 30px;
+    background-color: yellow;
+}
+.row5-img2{
+    height: 415px;
+    width: 350px;
+    position: absolute;
+       top: 825px;
+       left: 400px;
+}
+.row5-img3{
+    height: 415px;
+    width: 350px;
+    position: absolute;
+       top: 825px;
+       left: 770px;
+}
+.row5-img4{
+    height: 415px;
+    width: 350px;
+    position: absolute;
+       top: 825px;
+       left: 1140px;
+}
+.row6{
+    height: 415px;
+    width: 1520px;
+    position: absolute;
+       top: 1260px;
+       left: 0px;
+}
