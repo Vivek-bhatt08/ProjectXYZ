@@ -255,3 +255,46 @@
     padding-top: 10px;
     font-size: 15px;
 }
+.row4-img1{
+    height: 415px;
+    width: 350px;
+    position: absolute;
+       top: 390px;
+       left: 30px;
+}
+.row4-img2{
+    height: 415px;
+    width: 350px;
+    position: absolute;
+       top: 390px;
+       left: 400px;
+}
+.row4-img3{
+    height: 415px;
+    width: 360px;
+    position: absolute;
+       top: 390px;
+       left: 770px;
+}
+.sign-in-box{
+    height: 130px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+       top: 390px;
+       left: 1140px;
+    text-align: center; 
+    padding-top: 20px;
+    font-size: 21px;  
+}
+.sign-in-button-box{
+    font-size: 14px;
+    height: 30px;
+    width: 300px;
+    background-color:rgb(255, 226, 5);
+    border-radius:8px ;
+    border: none;
+}
+.sign-in-button-box:hover{
+    background-color: rgb(235, 186, 52);
+}
