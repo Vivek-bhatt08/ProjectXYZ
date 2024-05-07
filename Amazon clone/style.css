@@ -341,3 +341,26 @@
        top: 1260px;
        left: 0px;
 }
+.row7{
+    height: 415px;
+    width: 1520px;
+    position: absolute;
+       top: 1695px;
+       left: 0px;
+}
+.row8{
+    height: 430px;
+    width: 1520px;
+    position: absolute;
+       top: 2130px;
+       left: 0px;
+}
+.row9{
+    height: 120px;
+    width: 1520px;
+    position: absolute;
+        top: 2570px;
+        left: 0px;
+    text-align: center;   
+    padding-top: 30px; 
+}
