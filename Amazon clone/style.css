@@ -364,3 +364,29 @@
     text-align: center;   
     padding-top: 30px; 
 }
+.footer-sign-in{
+    height: 30px;
+    width: 250px;
+    border: none;
+    background-color:rgb(255, 226, 5);
+    border-radius:8px ;
+}
+.fotter-add-1{
+    font-size: 14px;
+}
+.fotter-add-2{
+    font-size: 12px;
+}
+.top{
+    height: 40px;
+    width: 1520px;
+    position: absolute;
+        top: 2710px;
+        left: 0px;
+    text-align: center;   
+    padding-top: 20px;
+    background-color:rgb(2,16,41,0.85); 
+}
+.top:hover{
+    opacity: 0.9;
+}
