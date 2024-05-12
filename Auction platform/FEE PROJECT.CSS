@@ -1,7 +1,27 @@
 *{
 	margin: 0rem;
-	padding: 0;
 	box-sizing: border-box;
+
+}
+body{
+	background-position: center;
+	overflow: scroll;
+}
+.nav-bar{
+	height: 5rem;
+	width: 100%;
+	background: black;
+	display: flex;
+}
+.nav-logo{
+	height: 5rem,;
+	width: 8rem;
+	margin-left: 40px;
+	padding-left: 20px;
+}
+.logo{
+	height: 100%;
+	width: 5rem;
 
 }
 .border{
@@ -9,37 +29,12 @@
 }
 .border:hover{
 	border: 3px solid white;
-	border-radius: 2px;
-}
-
-
-.nav-bar{
-	height: 5rem;
-	width: 100%;
-	background:black;
-	display: flex;
-	justify-content: space-between;
-	position: sticky;
-	top: 0;
-	z-index: 1000;
-}
-.nav-logo{
-	height: 5rem,;
-	width: 8rem;
-	margin-left: 1.5rem;
-	padding-left: 1.25rem;
-	transition: transform 1.5s;
-}
-.nav-logo:hover{
-	transform: scale(0.9);
-}
-.logo{
-	height: 100%;
-	width: 5rem;
+	border-radius: 6px;
 }
 .row1col2{
-	height:5rem;
-	width: 9.375rem;
+	height:80px;
+	width: 150px;
+	margin-left: 5px;
 	
 }
 .sel-box{
@@ -57,13 +52,12 @@
 	height: 3.125rem;
 	width: 37.5rem;
 	display: flex;
-	margin-top: 0.938rem;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 15px;
 	border: 3px solid gray;
-	margin-left: 0.625rem;
-	transition: transform 0.7s;
-}
-.search-box:hover{
-	transform: scale(0.97);
+	margin-left: 10px;
 }
 .input-box{
 	height: 100%;
@@ -82,17 +76,27 @@
 	text-align: center;
     font-size: 1.5rem;
     border: none;
-    padding-top: 0.563rem;
+    padding-top: 9px;
     background: white;
 
 }
 .input-box:hover{
 	border: none;
+	font-size: 0.9rem;
 
+}
+.search-sel-box{
+	height: 100%;
+	width: 7.5rem;
+	border: none;
+	background: gray;
+	color:white;
+	font-weight: 500;
+	font-family: arial;
 }
 .search-button{
 	height: 3.125rem;
-	width: 9.5rem;
+	width: 9.375rem;
 	margin-top: 15px;
 	margin-left: 5px;
 
@@ -107,61 +111,60 @@
 	font-family: arial;
 }
 .in-search-button:hover{
-	background:rgb(44, 195, 180);
+	background:#0a3d8f;
 	border: 3px solid white;
-	
+	border-radius: 6px;
 
 }
 .row1col5{
 	height: 5rem;
-	width: 12rem;
+	width: 11.875rem;
 	margin-left: 10px;
 	font-family: arial;
-	transition:transform 0.5s;
+
 }
 .row1col5 p{
 	color: white;
 	text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 1.2rem;
     text-decoration: none;
-}
-.row1col5:hover{
-	transform: scale(0.95);
+
 }
 .sign-in-link{
 	color: white;
 	text-decoration: none;
 }
+.sign-in-link:hover{
+	text-decoration: underline;
+	font-size: 1.1rem;
+	color: yellow;
+}
 .row1col6{
 	height:5rem;
-	width: 6.5rem;
+	width: 6.25rem;
 	margin-left: 10px;
 	font-family: arial;
-	transition:transform 0.5s;
 }
 .row1col6 p{
 	color: white;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 1.2rem;
-}
-.row1col6:hover{
-	transform: scale(0.95);
 }
 .bid-link{
 	color: white;
 	text-decoration: none;
 }
+.bid-link:hover{
+	color: yellow;
+	text-decoration: underline;
+}
 .row1col7{
 	height: 5rem;
 	width: 7.5rem;
 	margin-left: 10px;
-	transition:transform 0.5s;
 
-}
-.row1col7:hover{
-	transform: scale(0.95);
 }
 .your-bid{
 	height: 5rem;
@@ -169,77 +172,19 @@
 	text-align: center;
 	padding-bottom: 5px;
 }
-
-/*this is media query of nav bar*/
-
-@media screen and (max-width: 768px) {
-	.row1col5,
-	.row1col6,
-	.row1col7{
-		display: none;
-	}
-	.nav-bar{
-		display:flex;
-		justify-content: space-evenly;
-	}
-    .sel-box{
-    	display: none;
-    }
-    .search-box{
-    	min-width:310px;
-		position: relative;
-		left: -100px;
-    }
-	.logo{
-		display: none;
-	}  
-	.search-button{
-		position: relative;
-		right: 30px;
-		min-width:110px
-	}
-}
-@media screen and (max-width: 550px) {
-	.search-button{
-		display: none;
-	}
-	.search-box{
-		min-width: auto;
-	}
-}
-
-@media screen and (max-width:500px) {
-	.logo{
-		display: block;
-		margin: auto;
-		margin-left: 70px;
-	}
-	.search-box{
-		display: none;
-	}
-}
-
-
-
-
-/*THIS IS NAV 1 ,NAV2 AND CENTER NAV*/
-
 .nav-2{
 	height: 12.5rem;
 	width: 13.75rem;
-	position: relative;
+	position: absolute;
+	top: 10px;
 	left: 10px;
-	top: -510px;
-	z-index: 1000;
 }
 .nav-3{
 	height: 12.5rem;
 	width: 13.75rem;
-	position: relative;
-	left: 1300px;
-	top: -710px;
-	z-index: 1000;
-	
+	position: absolute;
+	   top: 10px;
+	   left: 1290px;
     
 }
 .nav-2-col1{
@@ -254,7 +199,7 @@
 	font-family:arial;
 }
 .nav-2-col2{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -265,7 +210,7 @@
 	font-family:arial;
 }
 .nav-2-col3{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -276,7 +221,7 @@
 	font-family:arial;
 }
 .nav-2-col4{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -287,7 +232,7 @@
 	font-family:arial;
 }
 .nav-3-col1{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -298,7 +243,7 @@
 	font-family:arial;
 }
 .nav-3-col2{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -309,7 +254,7 @@
 	font-family:arial;
 }
 .nav-3-col3{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -320,7 +265,7 @@
 	font-family:arial;
 }
 .nav-3-col4{
-	height: 3.125rem;
+	height: 50px;
 	width: 100%;
 	text-align: center;
 	font-size: 1.1rem;
@@ -334,70 +279,68 @@
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-2-col2:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-2-col3:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-2-col4:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-3-col1:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-3-col2:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-3-col3:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
 .nav-3-col4:hover{
 	font-size: 1rem;
 	background: white;
 	color: blue;
-	border:2px solid grey;
 }
-
+.bid-col{
+	color: white;
+}
 .center-bar-1{
-	height: 3.125rem;
-	width: 27.5rem;
+	height: 50px;
+	width: 440px;
+	background: gray;
 	display: flex;
-	position: relative;
-	top: -910px;
-	left: 15.625rem;
+	position: absolute;
+	top: 10px;
+	left: 250px;
+	background-attachment: scroll;
 }
 .center-bar-2{
-	height: 3.125rem;
-	width: 27.5rem;
+	height: 50px;
+	width: 440px;
+	background:yellow;
 	display: flex;
-	position: relative;
-	top: -960px;
-	left: 52.5rem;
+	position: absolute;
+	top: 10px;
+	left: 830px;
+	background-attachment: scroll;
 }
 .center-bar-1-col1{
-	height: 100%;
-	width: 13.75rem;
+	height: 50px;
+	width: 100%;
 	padding-top: 15px;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -405,11 +348,10 @@
 	text-align: center;
 	color: white;
 	font-family:arial;
-	transition:transform 0.5s;
 }
 .center-bar-1-col2{
-	height:100%;
-	width: 13.75rem;
+	height: 50px;
+	width: 100%;
 	padding-top: 15px;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -417,11 +359,10 @@
 	text-align: center;
 	color: white;
 	font-family:arial;
-	transition:transform 0.5s;
 }
 .center-bar-2-col1{
-	height:100%;
-	width: 13.75rem;
+	height: 50px;
+	width: 100%;
 	padding-top: 15px;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -429,11 +370,10 @@
 	text-align: center;
 	color: white;
 	font-family:arial;
-	transition:transform 0.5s;
 }
 .center-bar-2-col2{
-	height:100%;
-	width: 13.75rem;
+	height: 50px;
+	width: 100%;
 	padding-top: 15px;
 	font-size: 1.2rem;
 	font-weight: 500;
@@ -441,201 +381,110 @@
 	text-align: center;
 	color: white;
 	font-family:arial;
-	transition:transform 0.5s;
 }
 .center-bar-1-col1:hover{
-	transform: scale(1.05);
+	font-size: 1.1rem;
 }
 .center-bar-1-col2:hover{
-	transform: scale(1.05);
+	font-size: 1.1rem;
 }
 .center-bar-2-col1:hover{
-	transform: scale(1.05);
+	font-size: 1.1rem;
 }
 .center-bar-2-col2:hover{
-	transform: scale(1.05);
+	font-size: 1.1rem;
+}
+.center-content{
+	height: 395px;
+	width: 702px;
+	background: white;
+	position: absolute;
+	top: 165px;
+	left: 400px;
+}
+#vid{
+	border: transparent;
+}
+#vid:hover{
+	border: 5px solid gray; ;
+	box-shadow:2px 2px 5px 10px rgba(5, 66, 130,0.8);
 }
 .center-content-bg{
-	opacity: 0.9;
-	height: 30rem;
-	width: 100%;
-	image-resolution: 300dpi;
-	z-index: -1000;
-  }
-  .center-content{
-	height: 24.5rem;
-	width: 62rem;
-	background: white;
-	position: relative;
-	top:-400px;
-	left: 250px;
-	border-bottom-left-radius:150px ;
-	border-bottom-right-radius:150px ;
-	transition: transform 1s;
-
+  opacity: 0.9;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  image-resolution: 300dpi;
 }
-.center-content:hover{
-	transform: scale(0.97);
-}
-/*THIS IS MEDIA QUERY FOR NAV'S*/
-@media screen and (max-width:1520px) {
-	.nav-3{
-		display: none;
-	}
-	.nav-2{
-		display: none;
-	}
-	.center-bar-1{
-		display: none;
-	}
-	.center-bar-2{
-		display:none;
-	}
-	#content-in-button{
-		height: 50px;
-		width: 100%;
-		background-color: rgb(18, 66, 155);
-		display: flex;
-		justify-content: space-between;
-		position: relative;
-		top:0px;
-		z-index: 1000;
-		
-	}
-	.bars{
-		margin-top: 8px;
-		margin-left: 10px;
-	}	
-}
-@media screen and (max-width:1400px) {
-	.center-content{
-		position: relative;
-		left: 150px;
-	}
-}
-@media screen and (max-width:1360px) {
-	.center-content{
-		position: relative;
-		left: 130px;
-	}
-}
-@media screen and (max-width:1300px) {
-	.center-content{
-		position: relative;
-		left: 140px;
-	}
-}
-@media screen and (max-width:1260px) {
-	.center-content{
-		position: relative;
-		left: 90px;
-	}
-}
-@media screen and (max-width:1200px) {
-	.center-content{
-		position: relative;
-		left: 70px;
-	}
-}
-@media screen and (max-width:1190px) {
-	.center-content{
-		position: relative;
-		left: 50px;
-	}
-}
-@media screen and (max-width:1190px) {
-	.center-content{
-		position: relative;
-		left: 50px;
-	}
-}
-@media screen and (max-width:1150px) {
-	.center-content{
-		position: relative;
-		left: 20px;
-	}
-}
-@media screen and (max-width:1130px) {
-	.center-content{
-		position: relative;
-		left: 0px;
-	}
-}
-@media screen and (max-width:1110px) {
-	.center-content{
-		height: 22rem;
-		width: auto;
-		border-radius: 0;
-	}
-}
-@media screen and (max-width:725px) {
-	.center-content{
-		height: 15rem;
-		width: auto;
-		border-radius: 0;
-	}
-	.center-content-bg{
-		height: 25rem;
-		
-	}
-}
-/*menu bar css*/
-#main-menu {
-	position: relative;
-	
-  }
-#menu-popup {
-	display: none;
-	position: absolute;
-	left: 0px;
-	background-color: #194067;
-	padding: 20px;
-	border: 1px solid #ccc;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-	width: 250px;
-	z-index: 1000000;
-  }
-#menu-popup li:hover{
-	background-color:#4fe4ff ;
-}
-
-
-  #menu-popup ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-  }
-
-  #menu-popup li {
-	margin-bottom: 10px;
-	text-align: center;
-
-  }
-
-  #menu-popup li a {
-	display: block;
-	padding: 5px 10px;
-	text-decoration: none;
-	color:white;
-  }
-
-
-
-
-
-
-/*link underline remove*/
-.bid-col{
-	color: white;
-}
-
-
 .link-deco{
 	color: white;
 	text-decoration: none;
 }
+.content-row1{
+	height: 420px;
+	width: 1520px;
+	background-color:transparent;
+	display: flex;
+}
+.content-row1-col1{
+	height: 380px;
+	width: 355px;
+    transform: translate(20px,20px);
+}
+.content-row1-col2{
+	height: 380px;
+	width: 355px;
+    transform: translate(40px,20px);
+}
+.content-row1-col3{
+	height: 380px;
+	width: 355px;
+    transform: translate(60px,20px);
+}
+.content-row1-col4{
+	height: 380px;
+	width: 355px;
+    transform: translate(80px,20px);
+}
 
+.auction-items{
+	height: 35px;
+	width: 100%;
+	
+}
+.auction-items-sec-row2{
+	height: 157.5px;
+	width: 100%;
+	background-color:white;
+	display: flex;
+}
+.auction-items-img{
+	height: 157px;
+	width: 177px;
+}
+.auction-items-sec-foot{
+	background-color: white;
+	text-align: right;
+	font-size: 25px;
+	font-family: sans-serif;
+	padding-right: 10px;
 
-
-
-
+}
+.auction-items-img:hover{
+	border: 5px solid rgb(17, 17, 121);
+}
+.end-line{
+	height: 50px;
+	width: 100%;
+	background-color: #537895;
+}
+.img-header{
+	color: white;
+	border: 2px solid white;
+	background-color: #537895;
+}
+.footer{
+	height: 600px;
+	width: 100%;
+	background-color: #09203F;
+}
