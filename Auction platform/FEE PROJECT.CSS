@@ -488,3 +488,92 @@ body{
 	width: 100%;
 	background-color: #09203F;
 }
+.footer-row1{
+	height: 100px;
+	width: 100%;
+	background-color:transparent ;
+	position: relative;
+	top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-button{
+	text-align: center;
+	height: 45px;
+	width: 400px;
+	font-size: 25px;
+	border-radius: 10px;
+	background-color: rgb(8, 140, 140);
+	color: white;
+	font-weight: 600;
+}
+.footer-button:hover{
+	font-size: 23px;
+	border: 2px solid rgb(255, 255, 255);
+}
+.footer-row2{
+	height: 500px;
+	width: 100%;
+	border:20px solid white;
+	margin-top:10px;
+	color: white;
+}
+.footer-row2-col1{
+	color: white;
+	font-size: 50px;
+	font-family: cursive;
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
+.footer-row2-text{
+	color: gray;
+	font-size: 20px;
+	font-family: sans-serif;
+	position: relative;
+	top: 110px;
+	left: 100px;
+}
+.footer-nav0{
+    height: 150px;
+    width: 190px;
+    font-size: 25px;
+    font-family: verdana;
+    position: relative;
+    left: 480px;
+    text-align: right;
+    border-left: 3px solid gray;
+}
+
+.footer-nav1{
+    height: 150px;
+    width: 320px;
+    font-size: 25px;
+    font-family: verdana;
+    position: relative;
+    left:700px;
+    top: -150px;
+    text-align: right;
+    border-left: 3px solid gray;
+}
+.footer-text{
+	height:150px;
+	width: 300px;
+	position: relative;
+	top:-300px;
+	left: 1080px;
+	font-size: 20px;
+	color: grey;
+	font-family: sans-serif;
+}
+.footer-row2-endline{
+	height: 50px;
+	width: 100%;
+	transform: translateY(-150px);
+	font-size: 25px;
+	color:white;
+	text-align: center;
+	padding-top: 5px;
+	border-top: 3px solid gray;
+}
