@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Auctions</title>
+    <style type="text/css">
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #007bff;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .main {
+                padding: 20px;
+            }
+
+            .auction-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .auction-item {
+                width: 300px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 10px;
+                background-color: #fff;
+                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+            }
+
+            .auction-item img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .auction-item h2 {
+                margin: 10px 0;
+            }
+
+            .auction-item p {
+                margin: 5px 0;
+            }
+
+            .auction-item a {
+                display: block;
+                background-color: #007bff;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+                border-radius: 5px;
+                text-decoration: none;
+                margin-top: 10px;
+            }
+
+            .auction-item a:hover {
+                background-color: #0056b3;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Active Auctions</h1>
+    </header>
+    <main>
+        <section class="auction-list">
+            <div class="auction-item">
+                <img src="auction1.jpg" alt="Auction Item 1">
+                <h2>Auction Item 1</h2>
+                <p>Description of the item being auctioned.</p>
+                <p>Current Bid: $100</p>
+                <p>Time Left: 2 hours</p>
+                <a href="#">Bid Now</a>
+            </div>
+            
+            <div class="auction-item">
+                <img src="auction2.jpg" alt="Auction Item 2">
+                <h2>Auction Item 2</h2>
+                <p>Description of the item being auctioned.</p>
+                <p>Current Bid: $75</p>
+                <p>Time Left: 3 hours</p>
+                <a href="#">Bid Now</a>
+            </div>
+            
+            <!-- Add more auction items as needed -->
+        </section>
+    </main>
+</body>
+</html>

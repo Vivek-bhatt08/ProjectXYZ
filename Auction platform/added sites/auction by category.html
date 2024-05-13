@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auctions by Category - Runway Ready</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .header .logo {
+            font-size: 24px;
+        }
+
+        .nav-list {
+            list-style-type: none;
+        }
+
+        .nav-item {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main {
+            padding: 40px 0;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Category styles */
+        .categories {
+            background-color: #fff;
+            padding: 40px 0;
+        }
+
+        .category-list {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .category-item {
+            background-color: #f7f7f7;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .category-item:hover {
+            transform: scale(1.05);
+        }
+
+        .category-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            display: block;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Runway Ready</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Auctions</a></li>
+                    <li class="nav-item"><a href="#">My Bids</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Browse Auctions by Category</h2>
+                <ul class="category-list">
+                    <li class="category-item">
+                        <a href="#">Fashion</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">Art</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">Electronics</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">Jewelry</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">Collectibles</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">Sports</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Runway Ready Auctions</p>
+        </div>
+    </footer>
+</body>
+</html>
