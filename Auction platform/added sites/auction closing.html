@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closing Auctions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: darkred;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .auction {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .auction h2 {
+            margin: 0;
+        }
+
+        .auction p {
+            margin: 10px 0;
+        }
+
+        .countdown {
+            font-size: 20px;
+            color: #007bff;
+        }
+
+        .countdown span {
+            font-weight: bold;
+        }
+        .bgimg{
+            height: 100%;
+            width: 100%;
+            z-index:-1;
+            position:relative;
+            top: -500px;
+            background-size:cover ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Closing Auctions</h1>
+    </header>
+    <div class="container">
+        <div class="auction">
+            <h2>Auction Item 1</h2>
+            <p>Description of the item being auctioned.</p>
+            <p>Time Left: <span class="countdown">3 hours 25 minutes</span></p>
+        </div>
+
+        <div class="auction">
+            <h2>Auction Item 2</h2>
+            <p>Description of the item being auctioned.</p>
+            <p>Time Left: <span class="countdown">1 hour 45 minutes</span></p>
+        </div>
+
+        <!-- Add more auctions as needed -->
+    </div>
+    <img src="club-2492011_1280.jpg"class="bgimg">
+</body>
+</html>
